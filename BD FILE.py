@@ -1727,7 +1727,7 @@ while attemps < 12345677901:
     username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
     password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'V' and password == '7':
+    if username == 'SSRB' and password == 'SSRB':
         print(' \033[0;95mYou Have Successfully Logged in.')
         os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
         break
